@@ -1,0 +1,55 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.c-datos {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form {
+    width: 70%;
+    height: 320px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.registrar_producto {
+    width: 70%;
+    background-image: linear-gradient(to right top, #6b1a67, #521c60, #3a1b57, #23184b, #0b143e);
+    background-repeat: no-repeat;
+    border: 1px solid #451d7e;
+    border-radius: 10px;
+}
+
+.editar_producto {
+    width: 70%;
+    background-image: linear-gradient(to right top, #676b1a, #5b5f16, #4f5412, #43490f, #383e0b);
+    background-repeat: no-repeat;
+    border: 1px solid #7d7c15;
+    border-radius: 10px;
+}
+
+#contenedor-tabla {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+

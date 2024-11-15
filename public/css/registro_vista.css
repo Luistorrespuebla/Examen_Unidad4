@@ -1,0 +1,41 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+}
+
+button {
+    background-image: linear-gradient(to right, #0c0b22, #0e0f2a, #0f1231, #111539, #131741, #121746, #12164a, #11164f, #0d1251, #0a0f52, #060a54, #040555);
+}
+
+.c-user {
+    font-size: 100px;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.form-control {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+.form-control:focus {
+    color: white;
+    border: none;
+    border-bottom: solid white 2px;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+.form-control::placeholder {
+    color: rgb(197, 193, 193);
+}
+
+.c-input {
+    background-color: #131484;
+}
